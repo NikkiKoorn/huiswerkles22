@@ -1,0 +1,40 @@
+header{
+  width: 100%;
+  background-color: #3B5248;
+  height: 100px;
+  color: black;
+}
+
+body{
+  background-color: #3B5248;
+}
+
+.nav-link{
+  color: black;
+  background-color: #B5CBC2;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+footer{
+  text-align: center;
+  height: 200px;
+  padding-top: 120px;
+}
+
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  margin: 10px;
+  box-sizing: border-box;
+  width: 300px;
+  border-radius: 5px; box-shadow: inset 2px 2px 5px lightgreen;
+}
+
+button:hover{
+  background-color: #3B5248;
+  color: white;
+}
+
+textarea{
+  height: 100px;
+}
